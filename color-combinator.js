@@ -5,7 +5,7 @@ return 'When you combine red and yellow, you get orange!' ;
 return 'When you combine red and blue, you get purple!'
 } else if (color === 'yellow' && color2 === 'blue') {
 return "When you combine yellow and blue, you get green!";
-} else if (color && color2) {
+} else {
     return "Sorry, one of those colors is not a primary color!";
 }
 }
